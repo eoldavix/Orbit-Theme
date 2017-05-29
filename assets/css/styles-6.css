@@ -259,7 +259,7 @@ p {
   color: #fb866a;
 }
 /* Workaround for class time in small devices */
-@@media (max-width: 1002px) {
+@media (max-width: 1002px) {
   .main-wrapper .time {
     position: static;
     display: block;
