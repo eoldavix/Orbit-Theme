@@ -258,6 +258,14 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+/* Workaround for class time in small devices */
+@@media (max-width: 1002px) {
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
@@ -266,11 +274,6 @@ p {
   }
   .main-wrapper {
     padding: 30px;
-  }
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
   }
   .main-wrapper .upper-row {
     margin-bottom: 0;
