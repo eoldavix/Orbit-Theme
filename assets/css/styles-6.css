@@ -246,6 +246,9 @@ p {
   height: 12px;
   background: #6c92a3;
 }
+.skillset .progress-barr {
+  background: #6c92a3;
+}
 .footer {
   padding: 30px;
   padding-top: 60px;
